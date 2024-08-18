@@ -1,0 +1,124 @@
+body{
+    background-color: #0a0a23;
+    font-family: "Montserrat", sans-serif;
+}
+
+.ca1 img{
+    height: 32px;
+}
+
+main{
+    padding: 0px  340px;
+}
+
+.ca2{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    font-size: 14px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+header{
+    padding: 0px 30px;
+}
+.ca3 .ca3a{
+
+    color: black;
+    border: 1px solid white;
+    font-weight: bold;
+    height: 40px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+} 
+
+
+.sectiona{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+margin-bottom: 70px;
+
+}
+
+main .sectiona .child1t1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+main .sectiona .child1t2{
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    line-height: 28px;
+}
+
+main .sectiona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+main .sectiona .child1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+    
+}
+
+.sectionb .c1ab{
+    color: black;
+    font-size: 20px;
+}
+
+.sectionb .c1a{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 32px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 10px;
+    gap: 10px;
+}
+.sectionb .child2 .c2a{
+    color: white;
+    
+}
+.sectionb .child2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    background-color: blue;
+    height: 32px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 10px;
+
+}
+
+.sectionb{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;font-size: 20px;
+}
