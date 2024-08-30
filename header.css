@@ -1,17 +1,19 @@
-body{
+body {
     background-color: #0a0a23;
     font-family: "Montserrat", sans-serif;
+    /* overflow-x: hidden; */
+    margin: 0;
+    padding: 0;
 }
 
-.ca1 img{
+/* FOR HEADER */
+
+header .ca1 img {
     height: 32px;
 }
 
-main{
-    padding: 0px  340px;
-}
 
-.ca2{
+.ca2 {
     color: white;
     display: flex;
     flex-direction: row;
@@ -19,13 +21,16 @@ main{
     align-items: center;
     gap: 45px;
     font-size: 14px;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
 }
-header{
-    padding: 0px 30px;
+
+
+header {
+    padding-right: 50px;
 }
-.ca3 .ca3a{
+
+.ca3 .ca3a {
 
     color: black;
     border: 1px solid white;
@@ -39,53 +44,65 @@ header{
     align-items: center;
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
-} 
+}
 
-
-.sectiona{
+header  .sectiona {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-margin-bottom: 70px;
+    margin-bottom: 70px;
 
 }
+
+/* FOR MAIN */
+/* FOR SECTION A */
+
+
+
 
 main .sectiona .child1t1 {
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
 }
-main .sectiona .child1t2{
+
+main .sectiona .child1t2 {
     color: white;
     font-size: 17px;
     letter-spacing: 1px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 28px;
 }
 
-main .sectiona{
+main .sectiona {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    
+    padding: 0px 90px;
 }
-main .sectiona .child1{
+
+main .sectiona .child1 {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    
-    
+
 }
 
-.sectionb .c1ab{
+main .sectiona .child2 img {
+    height: 450px;
+}
+
+/* FOR SECTION B  */
+.sectionb .c1ab {
     color: black;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.sectionb .c1a{
+.sectionb .c1a {
     display: flex;
     flex-direction: row;
     border: 2px solid white;
@@ -93,21 +110,24 @@ main .sectiona .child1{
     align-items: center;
     background-color: white;
     height: 32px;
-    width: 300px;
+    width: 280px;
     border-radius: 50px;
     padding: 10px;
     gap: 10px;
 }
-.sectionb .child2 .c2a{
+
+.sectionb .child2 .c2a {
     color: white;
-    
+    font-size: 18px;
+    font-weight: 500;
 }
-.sectionb .child2 {
+
+main .sectionb .child2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid blue;
-    background-color: blue;
+    border: 1px solid rgb(75, 75, 240);
+    background-color: rgb(77, 77, 234);
     height: 32px;
     width: 300px;
     border-radius: 50px;
@@ -115,10 +135,179 @@ main .sectiona .child1{
 
 }
 
-.sectionb{
+main .sectionb {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 40px;font-size: 20px;
+    gap: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
+
+/* FOR SECTION C  */
+main .sectionc .c1 .c1a,.c1b{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+main .sectionc .c2a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(75, 75, 240);
+    background-color: rgb(77, 77, 234);
+    height: 32px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 10px;
+   
+}
+
+main .sectionc .c3 img{
+    height: 300px;
+    /* width: 100vw; */
+}
+
+main .sectionc .c1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .sectionc{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+/* FOR FOOTER */
+footer{
+    margin-top: -24px; 
+    height: 120vh;
+    background-color: rgb(134, 126, 185);
+}
+
+
+/* FOR SECTION A */
+
+footer .sectiona .c1 .c1a img{
+    height: 20px;
+   
+}
+
+footer .sectiona .c1 .c1b{
+font-size: 16px;
+font-weight: 300;
+}
+
+footer .sectiona .c1 .fa-angle-down{
+color: white;
+}
+
+footer .sectiona .c1{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+footer .sectiona .c2{
+   font-size: 22px;
+   display: flex;
+   gap: 30px;
+
+}
+
+footer .sectiona {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+/* FOR SECTION FB */
+footer  .sectionfb .c1  .c1a{
+    font-size: 16px;
+    color: white;
+    font-weight: 500; 
+}
+
+footer  .sectionfb .c1  .c1b{
+    font-size: 16px;
+    color: white;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .sectionfb .c1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer .sectionfb{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 60px;
+  
+}
+
+/* FOR COMBINE SECTION */
+footer .combiinesection{
+    padding: 120px 40px;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+/* FOR SECTION D */
+
+footer .sectiond .line{
+    margin-top: -90px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-left:40px;
+}
+
+footer .sectiond{
+    margin-left: 40px;
+    margin-right: 100px;
+}
+
+/* FOR SECTION E */
+
+footer .sectione .c1 img{
+    height: 32px;
+}
+
+footer .sectione .c2{
+    color: white;
+    border: 1px solid rgb(91, 71, 219);
+    font-weight: bold;
+    height: 40px;
+    width: 70px;
+    background-color:rgb(91, 71, 219);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;   
+}
+
+
+footer .sectione{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px;}
